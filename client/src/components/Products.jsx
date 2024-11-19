@@ -69,7 +69,7 @@ function Products() {
         body:formData
     };
     try{
-        const result = await fetch("http://localhost:8080/products",options);
+        const result = await fetch("https://dexteroustask.onrender.com/products",options);
         const data = await result.json();
         return data;
     }catch(err){
@@ -104,7 +104,7 @@ function Products() {
     //get products
     useEffect(()=>{
         try{
-            axios.get("http://localhost:8080/products")
+            axios.get("https://dexteroustask.onrender.com/products")
             .then(res=>{
                 setData(res.data);
                 console.log(res.data);
