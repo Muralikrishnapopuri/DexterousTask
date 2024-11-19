@@ -1,0 +1,1616 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+@media screen and (min-width:1200px)and (max-width:2000px){
+  .secLight{
+    background-color: rgb(255, 248, 229);
+  }
+  .secDark{
+    background-color: rgb(5, 0, 23);
+  }
+  .secLight .secinner{
+    padding: 2rem;
+    /* background-color: rgb(255, 249, 232); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 10rem;
+    gap: 1rem;
+  }
+    .secDark .secinner{
+    padding: 2rem;
+    /* background-color: rgb(255, 249, 232); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 10rem;
+    gap: 1rem;
+  }
+  .ProCardLight{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(35deg,rgb(255, 255, 255),rgb(255, 255, 222));
+    box-shadow: -1px -1px 3px rgb(223, 223, 223),2px 2px 6px rgb(255, 240, 198);
+    padding: 2rem;
+    border-radius: 1rem;
+   
+    height: auto;
+  }
+  .ProCardDark{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(35deg,rgb(0, 0, 0),rgb(0, 48, 39));
+    box-shadow: -1px -1px 3px rgb(46, 46, 46),2px 2px 6px rgb(0, 83, 50);
+    padding: 2rem;
+    border-radius: 1rem;
+   
+    height: auto;
+  }
+  .ProCardLight img{
+    border-radius: 0.3rem;
+    width: 14rem;
+    height: 16rem;
+  }
+  .ProCardDark img{
+    border-radius: 0.3rem;
+    width: 14rem;
+    height: 16rem;
+  }
+  .ProCardLight .matter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .ProCardDark .matter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .ProCardLight .matter p{
+    text-align: center;
+    width: 10rem;
+    font-size: 0.5rem;
+    color: rgba(0, 0, 0, 0.486);
+  }
+  .ProCardDark .matter p{
+    text-align: center;
+    width: 10rem;
+    font-size: 0.5rem;
+    color: rgba(255, 255, 255, 0.486);
+  }
+  .ProCardLight .matter h3{
+    background: linear-gradient(to Bottom,rgb(255, 0, 153),rgb(153, 97, 97));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0.5rem;
+  }
+  .ProCardDark .matter h3{
+    background: linear-gradient(to Bottom,rgb(38, 255, 0),rgb(97, 153, 114));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0.5rem;
+  }
+  .ProCardLight .matter div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .ProCardDark .matter div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .ProCardLight .matter div h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+  }
+  .ProCardDark .matter div h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+    color: white;
+  }
+  .ProCardLight .matter div h2 svg{
+    font-size: 1rem;
+  }
+  .ProCardLight .matter div strike{
+    font-weight: 300;
+    color: red;
+    font-size: 1.3rem;
+    
+  }
+  .ProCardDark .matter div h2 svg{
+    font-size: 1rem;
+  }
+  .ProCardDark .matter div strike{
+    font-weight: 300;
+    color: red;
+    font-size: 1.3rem;
+    
+  }
+
+  .Btn Button{
+    border: none;
+    background-image: linear-gradient(35deg,rgb(255, 240, 157),gold);
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 0.3rem;
+    padding: 0.3rem 1rem;
+  }
+  .sectionLight,.sectionDark{
+    /* height: 100vh; */
+  }
+
+  #modalnone{
+    display: none;
+  }
+  #modalblock{
+    display: block;
+  }
+
+  .modall{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-items: center;
+
+    background-color: rgba(0, 0, 0, 0.16);
+    padding-top: 5rem;
+  }
+  .modelCard{
+    
+    
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 2rem 2rem;
+    border-radius: 0.3rem;
+  }
+  .modelCard div{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+
+
+  }
+  
+
+  .Img{
+    border-radius: 0.3rem;
+    background-color: rgba(31, 31, 31, 0.123);
+    position: relative;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .Img input{
+    cursor: pointer;
+   width: 100%;
+   height: auto;
+   
+  }
+  .Img svg{
+    position: absolute;
+    cursor: pointer;
+
+  }
+  .formBody .Inputs{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .Inputs input,textarea{
+    border: none;
+    outline: none;
+    background-color: rgba(78, 78, 78, 0.1);
+    color: rgb(70, 70, 70);
+    border-radius: 0.3rem;
+    padding: 0.3rem 1rem;
+    cursor: pointer;
+
+  }
+  
+  .addBtnLight{
+    border: none;
+    background-image:linear-gradient(35deg,rgb(255, 251, 243),orange) ;
+    color: black;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    padding: 0.4rem 2rem;
+
+  }
+  .addBtnDark{
+    border: none;
+    background-image:linear-gradient(35deg,rgb(57, 67, 64),rgb(0, 215, 93)) ;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    padding: 0.4rem 2rem;
+
+  }
+  .addBtn svg{
+    font-size: 1.3rem;
+  }
+
+
+
+
+  nav .nameDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /*Header*/
+  .navLight{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(255, 241, 216);
+    padding: 1rem 2rem;
+
+  }
+  .navDark{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(0, 18, 61);
+    padding: 1rem 2rem;
+
+  }
+  .logoLight{
+    background-image: linear-gradient(to bottom,orange,rgb(123, 56, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+  }
+  .logoDark{
+    background-image: linear-gradient(to bottom,rgb(0, 255, 204),rgb(0, 123, 98));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+  }
+  .searchLight{
+    background: rgb(255, 221, 159);
+    border-radius: 1.5rem;
+    width: 22rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+  }
+  .searchDark{
+    background: rgb(0, 96, 77);
+    border-radius: 1.5rem;
+    width: 22rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+  }
+  .searchLight input{
+    border: none;
+    outline: none;
+    width: 100%;
+    background: transparent;
+    font-size: 1rem;
+    color: black;
+    cursor: pointer;
+  }
+  .searchDark input{
+    border: none;
+    outline: none;
+    width: 100%;
+    background: transparent;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  .searchLight svg{
+    font-size: 2rem;
+    color: black;
+    cursor: pointer;
+  }
+  .searchDark svg{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  .cartLight{
+    font-size: 2rem;
+    color: black;
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+  .cartDark{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+  .modeLight{
+    font-size: 2rem;
+    color: black;
+    cursor: pointer;
+  }
+
+  .modeDark{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+ /*slider*/
+ .cardLight{
+  background-image: linear-gradient(to left,rgb(255, 255, 255),rgb(255, 201, 234));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem 1rem;
+  color: black;
+ }
+ .cardDark{
+  background-image: linear-gradient(to left,rgb(0, 0, 0),rgb(62, 173, 145));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem 1rem;
+  color: white;
+ }
+ .nameLight{
+  background-image: linear-gradient(to bottom,rgb(40, 11, 15),rgb(255, 1, 162));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition:ease-in;
+ }
+ .nameDark{
+  background-image: linear-gradient(to bottom,rgb(255, 255, 255),rgb(1, 255, 5));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: ease-in;
+
+ }
+ .cardLight svg, .cardDark svg{
+  font-size: 2rem;
+ }
+ /*proucts*/
+ .sectionLight{
+  background-color: rgb(255, 252, 248);
+  padding-top: 2rem;
+ }
+ .sectionDark{
+  background-color: rgb(0, 8, 36);
+  padding-top: 2rem;
+
+ }
+
+}
+
+@media screen and (min-width:800px) and (max-width:1200px){
+
+
+  .secLight{
+    background-color: rgb(255, 248, 229);
+  }
+  .secDark{
+    background-color: rgb(5, 0, 23);
+  }
+  .secLight .secinner{
+    padding: 2rem;
+    /* background-color: rgb(255, 249, 232); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 1rem;
+    gap: 1rem;
+  }
+    .secDark .secinner{
+    padding: 2rem;
+    /* background-color: rgb(255, 249, 232); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 1rem;
+    gap: 1rem;
+  }
+  .ProCardLight{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(35deg,rgb(255, 255, 255),rgb(255, 255, 222));
+    box-shadow: -1px -1px 3px rgb(223, 223, 223),2px 2px 6px rgb(255, 240, 198);
+    padding: 2rem;
+    border-radius: 1rem;
+   
+    height: auto;
+  }
+  .ProCardDark{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(35deg,rgb(0, 0, 0),rgb(0, 48, 39));
+    box-shadow: -1px -1px 3px rgb(46, 46, 46),2px 2px 6px rgb(0, 83, 50);
+    padding: 2rem;
+    border-radius: 1rem;
+   
+    height: auto;
+  }
+  .ProCardLight img{
+    border-radius: 0.3rem;
+    width: 14rem;
+    height: 16rem;
+  }
+  .ProCardDark img{
+    border-radius: 0.3rem;
+    width: 14rem;
+    height: 16rem;
+  }
+  .ProCardLight .matter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .ProCardDark .matter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .ProCardLight .matter p{
+    text-align: center;
+    width: 10rem;
+    font-size: 0.5rem;
+    color: rgba(0, 0, 0, 0.486);
+  }
+  .ProCardDark .matter p{
+    text-align: center;
+    width: 10rem;
+    font-size: 0.5rem;
+    color: rgba(255, 255, 255, 0.486);
+  }
+  .ProCardLight .matter h3{
+    background: linear-gradient(to Bottom,rgb(255, 0, 153),rgb(153, 97, 97));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0.5rem;
+  }
+  .ProCardDark .matter h3{
+    background: linear-gradient(to Bottom,rgb(38, 255, 0),rgb(97, 153, 114));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0.5rem;
+  }
+  .ProCardLight .matter div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .ProCardDark .matter div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .ProCardLight .matter div h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+  }
+  .ProCardDark .matter div h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+    color: white;
+  }
+  .ProCardLight .matter div h2 svg{
+    font-size: 1rem;
+  }
+  .ProCardLight .matter div strike{
+    font-weight: 300;
+    color: red;
+    font-size: 1.3rem;
+    
+  }
+  .ProCardDark .matter div h2 svg{
+    font-size: 1rem;
+  }
+  .ProCardDark .matter div strike{
+    font-weight: 300;
+    color: red;
+    font-size: 1.3rem;
+    
+  }
+
+  .sectionLight{
+    background-color: rgb(255, 252, 248);
+    padding-top: 2rem;
+   }
+   .sectionDark{
+    background-color: rgb(0, 8, 36);
+    padding-top: 2rem;
+  
+   }
+  .Btn Button{
+    border: none;
+    background-image: linear-gradient(35deg,rgb(255, 240, 157),gold);
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 0.3rem;
+    padding: 0.3rem 1rem;
+  }
+  /* .sectionLight,.sectionDark{
+    height: 100vh;
+  } */
+
+  #modalnone{
+    display: none;
+  }
+  #modalblock{
+    display: block;
+  }
+
+  .modall{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-items: center;
+
+    background-color: rgba(0, 0, 0, 0.16);
+    padding-top: 5rem;
+  }
+  .modelCard{
+    
+    
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 2rem 2rem;
+    border-radius: 0.3rem;
+  }
+  .modelCard div{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+
+
+  }
+  
+
+  .Img{
+    border-radius: 0.3rem;
+    background-color: rgba(31, 31, 31, 0.123);
+    position: relative;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .Img input{
+    cursor: pointer;
+   width: 100%;
+   height: auto;
+   
+  }
+  .Img svg{
+    position: absolute;
+    cursor: pointer;
+
+  }
+  .formBody .Inputs{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .Inputs input,textarea{
+    border: none;
+    outline: none;
+    background-color: rgba(78, 78, 78, 0.1);
+    color: rgb(70, 70, 70);
+    border-radius: 0.3rem;
+    padding: 0.3rem 1rem;
+    cursor: pointer;
+
+  }
+  
+  .addBtnLight{
+    border: none;
+    background-image:linear-gradient(35deg,rgb(255, 251, 243),orange) ;
+    color: black;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    padding: 0.4rem 2rem;
+
+  }
+  .addBtnDark{
+    border: none;
+    background-image:linear-gradient(35deg,rgb(57, 67, 64),rgb(0, 215, 93)) ;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    padding: 0.4rem 2rem;
+
+  }
+  .addBtn svg{
+    font-size: 1.3rem;
+  }
+
+
+  nav .nameDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navLight{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(255, 241, 216);
+    padding: 1rem 2rem;
+
+  }
+  .navDark{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(0, 18, 61);
+    padding: 1rem 2rem;
+
+  }
+  .logoLight{
+    background-image: linear-gradient(to bottom,orange,rgb(123, 56, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+  }
+  .logoDark{
+    background-image: linear-gradient(to bottom,rgb(0, 255, 204),rgb(0, 123, 98));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+  }
+  .searchLight{
+    background: rgb(255, 221, 159);
+    border-radius: 1.5rem;
+    width: 22rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+  }
+  .searchDark{
+    background: rgb(0, 96, 77);
+    border-radius: 1.5rem;
+    width: 22rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+  }
+  .searchLight input{
+    border: none;
+    outline: none;
+    width: 100%;
+    background: transparent;
+    font-size: 1rem;
+    color: black;
+    cursor: pointer;
+  }
+  .searchDark input{
+    border: none;
+    outline: none;
+    width: 100%;
+    background: transparent;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  .searchLight svg{
+    font-size: 2rem;
+    color: black;
+    cursor: pointer;
+  }
+  .searchDark svg{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  .cartLight{
+    font-size: 2rem;
+    color: black;
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+  .cartDark{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+  .modeLight{
+    font-size: 2rem;
+    color: black;
+    cursor: pointer;
+  }
+
+  .modeDark{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  /*Slider*/
+  /*slider*/
+ .cardLight{
+  background-image: linear-gradient(to left,rgb(255, 255, 255),rgb(255, 201, 234));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem;
+  color: black;
+ }
+ .cardDark{
+  background-image: linear-gradient(to left,rgb(0, 0, 0),rgb(62, 173, 145));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem;
+  color: white;
+ }
+ .nameLight{
+  background-image: linear-gradient(to bottom,rgb(40, 11, 15),rgb(255, 1, 162));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition:ease-in;
+ }
+ .nameDark{
+  background-image: linear-gradient(to bottom,rgb(255, 255, 255),rgb(1, 255, 5));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: ease-in;
+
+ }
+ .cardLight svg, .cardDark svg{
+  font-size: 2rem;
+ }
+}
+
+@media screen and (min-width:480px) and (max-width:800px){
+  .secLight{
+    background-color: rgb(255, 248, 229);
+  }
+  .secDark{
+    background-color: rgb(5, 0, 23);
+  }
+  .secLight .secinner{
+    padding: 2rem;
+    /* background-color: rgb(255, 249, 232); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 10rem;
+    gap: 1rem;
+  }
+    .secDark .secinner{
+    padding: 2rem;
+    /* background-color: rgb(255, 249, 232); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 10rem;
+    gap: 1rem;
+  }
+  .ProCardLight{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(35deg,rgb(255, 255, 255),rgb(255, 255, 222));
+    box-shadow: -1px -1px 3px rgb(223, 223, 223),2px 2px 6px rgb(255, 240, 198);
+    padding: 2rem;
+    border-radius: 1rem;
+   
+    height: auto;
+  }
+  .ProCardDark{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(35deg,rgb(0, 0, 0),rgb(0, 48, 39));
+    box-shadow: -1px -1px 3px rgb(46, 46, 46),2px 2px 6px rgb(0, 83, 50);
+    padding: 2rem;
+    border-radius: 1rem;
+   
+    height: auto;
+  }
+  .ProCardLight img{
+    border-radius: 0.3rem;
+    width: 14rem;
+    height: 16rem;
+  }
+  .ProCardDark img{
+    border-radius: 0.3rem;
+    width: 14rem;
+    height: 16rem;
+  }
+  .ProCardLight .matter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .ProCardDark .matter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .ProCardLight .matter p{
+    text-align: center;
+    width: 10rem;
+    font-size: 0.5rem;
+    color: rgba(0, 0, 0, 0.486);
+  }
+  .ProCardDark .matter p{
+    text-align: center;
+    width: 10rem;
+    font-size: 0.5rem;
+    color: rgba(255, 255, 255, 0.486);
+  }
+  .ProCardLight .matter h3{
+    background: linear-gradient(to Bottom,rgb(255, 0, 153),rgb(153, 97, 97));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0.5rem;
+  }
+  .ProCardDark .matter h3{
+    background: linear-gradient(to Bottom,rgb(38, 255, 0),rgb(97, 153, 114));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0.5rem;
+  }
+  .ProCardLight .matter div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .ProCardDark .matter div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .ProCardLight .matter div h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+  }
+  .ProCardDark .matter div h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+    color: white;
+  }
+  .ProCardLight .matter div h2 svg{
+    font-size: 1rem;
+  }
+  .ProCardLight .matter div strike{
+    font-weight: 300;
+    color: red;
+    font-size: 1.3rem;
+    
+  }
+  .ProCardDark .matter div h2 svg{
+    font-size: 1rem;
+  }
+  .ProCardDark .matter div strike{
+    font-weight: 300;
+    color: red;
+    font-size: 1.3rem;
+    
+  }
+
+  .sectionLight{
+    background-color: rgb(255, 252, 248);
+    padding-top: 2rem;
+   }
+   .sectionDark{
+    background-color: rgb(0, 8, 36);
+    padding-top: 2rem;
+  
+   }
+  .Btn Button{
+    border: none;
+    background-image: linear-gradient(35deg,rgb(255, 240, 157),gold);
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 0.3rem;
+    padding: 0.3rem 1rem;
+  }
+  /* .sectionLight,.sectionDark{
+    height: 100vh;
+  } */
+
+  #modalnone{
+    display: none;
+  }
+  #modalblock{
+    display: block;
+  }
+
+  .modall{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-items: center;
+
+    background-color: rgba(0, 0, 0, 0.16);
+    padding-top: 5rem;
+  }
+  .modelCard{
+    
+    
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 2rem 2rem;
+    border-radius: 0.3rem;
+  }
+  .modelCard div{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+
+
+  }
+  
+
+  .Img{
+    border-radius: 0.3rem;
+    background-color: rgba(31, 31, 31, 0.123);
+    position: relative;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .Img input{
+    cursor: pointer;
+   width: 100%;
+   height: auto;
+   
+  }
+  .Img svg{
+    position: absolute;
+    cursor: pointer;
+
+  }
+  .formBody .Inputs{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .Inputs input,textarea{
+    border: none;
+    outline: none;
+    background-color: rgba(78, 78, 78, 0.1);
+    color: rgb(70, 70, 70);
+    border-radius: 0.3rem;
+    padding: 0.3rem 1rem;
+    cursor: pointer;
+
+  }
+  
+  .addBtnLight{
+    border: none;
+    background-image:linear-gradient(35deg,rgb(255, 251, 243),orange) ;
+    color: black;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    padding: 0.4rem 2rem;
+
+  }
+  .addBtnDark{
+    border: none;
+    background-image:linear-gradient(35deg,rgb(57, 67, 64),rgb(0, 215, 93)) ;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    padding: 0.4rem 2rem;
+
+  }
+  .addBtn svg{
+    font-size: 1.3rem;
+  }
+
+
+  nav .nameDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navLight{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(255, 241, 216);
+    padding: 1rem 2rem;
+
+  }
+  .navDark{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(0, 18, 61);
+    padding: 1rem 2rem;
+
+  }
+  .logoLight{
+    background-image: linear-gradient(to bottom,orange,rgb(123, 56, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5rem;
+  }
+  .logoDark{
+    background-image: linear-gradient(to bottom,rgb(0, 255, 204),rgb(0, 123, 98));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5rem;
+  }
+  .searchLight{
+    background: rgb(255, 221, 159);
+    border-radius: 1.5rem;
+    width: 10rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.1rem 1rem;
+  }
+  .searchDark{
+    background: rgb(0, 96, 77);
+    border-radius: 1.5rem;
+    width: 10rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.1rem 1rem;
+  }
+  .searchLight input{
+    border: none;
+    outline: none;
+    width: 100%;
+    background: transparent;
+    font-size: 1rem;
+    color: black;
+    cursor: pointer;
+  }
+  .searchDark input{
+    border: none;
+    outline: none;
+    width: 100%;
+    background: transparent;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  .searchLight svg{
+    font-size: 1.2rem;
+    color: black;
+    cursor: pointer;
+  }
+  .searchDark svg{
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  .cartLight{
+    font-size: 1.2rem;
+    color: black;
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+  .cartDark{
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+  .modeLight{
+    font-size: 1.2rem;
+    color: black;
+    cursor: pointer;
+  }
+
+  .modeDark{
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  /*slider*/
+ .cardLight{
+  background-image: linear-gradient(to left,rgb(255, 255, 255),rgb(255, 201, 234));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem;
+  color: black;
+  font-size: 0.7rem;
+ }
+ 
+ .cardDark{
+  background-image: linear-gradient(to left,rgb(0, 0, 0),rgb(82, 219, 185));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem;
+  color: white;
+  font-size: 0.7rem;
+
+ }
+ .nameLight{
+  background-image: linear-gradient(to bottom,rgb(40, 11, 15),rgb(255, 1, 162));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition:ease-in;
+  font-size: small;
+ }
+ .nameDark{
+  background-image: linear-gradient(to bottom,rgb(255, 255, 255),rgb(1, 255, 5));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: ease-in;
+  font-size: small;
+
+
+ }
+ .cardLight svg, .cardDark svg{
+  font-size: 1rem;
+ }
+}
+@media screen and (min-width:100px) and (max-width:480px){
+  .secLight{
+    background-color: rgb(255, 248, 229);
+  }
+  .secDark{
+    background-color: rgb(5, 0, 23);
+  }
+  .secLight .secinner{
+    padding: 1rem;
+    /* background-color: rgb(255, 249, 232); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 5rem;
+    gap: 1rem;
+  }
+    .secDark .secinner{
+    padding: 2rem;
+    /* background-color: rgb(255, 249, 232); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 10rem;
+    gap: 1rem;
+  }
+  .ProCardLight{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(35deg,rgb(255, 255, 255),rgb(255, 255, 222));
+    box-shadow: -1px -1px 3px rgb(223, 223, 223),2px 2px 6px rgb(255, 240, 198);
+    padding: 2rem;
+    border-radius: 1rem;
+   
+    height: auto;
+  }
+  .ProCardDark{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(35deg,rgb(0, 0, 0),rgb(0, 48, 39));
+    box-shadow: -1px -1px 3px rgb(46, 46, 46),2px 2px 6px rgb(0, 83, 50);
+    padding: 2rem;
+    border-radius: 1rem;
+   
+    height: auto;
+  }
+  .ProCardLight img{
+    border-radius: 0.3rem;
+    width: 9rem;
+    height: 11rem;
+  }
+  .ProCardDark img{
+    border-radius: 0.3rem;
+    width: 14rem;
+    height: 16rem;
+  }
+  .ProCardLight .matter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .ProCardDark .matter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .ProCardLight .matter p{
+    text-align: center;
+    width: 10rem;
+    font-size: 0.5rem;
+    color: rgba(0, 0, 0, 0.486);
+  }
+  .ProCardDark .matter p{
+    text-align: center;
+    width: 10rem;
+    font-size: 0.5rem;
+    color: rgba(255, 255, 255, 0.486);
+  }
+  .ProCardLight .matter h3{
+    background: linear-gradient(to Bottom,rgb(255, 0, 153),rgb(153, 97, 97));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0.5rem;
+  }
+  .ProCardDark .matter h3{
+    background: linear-gradient(to Bottom,rgb(38, 255, 0),rgb(97, 153, 114));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0.5rem;
+  }
+  .ProCardLight .matter div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .ProCardDark .matter div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .ProCardLight .matter div h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+  }
+  .ProCardDark .matter div h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+    color: white;
+  }
+  .ProCardLight .matter div h2 svg{
+    font-size: 1rem;
+  }
+  .ProCardLight .matter div strike{
+    font-weight: 300;
+    color: red;
+    font-size: 1.3rem;
+    
+  }
+  .ProCardDark .matter div h2 svg{
+    font-size: 1rem;
+  }
+  .ProCardDark .matter div strike{
+    font-weight: 300;
+    color: red;
+    font-size: 1.3rem;
+    
+  }
+
+  .sectionLight{
+    background-color: rgb(255, 252, 248);
+    padding-top: 2rem;
+   }
+   .sectionDark{
+    background-color: rgb(0, 8, 36);
+    padding-top: 2rem;
+  
+   }
+  .Btn Button{
+    border: none;
+    background-image: linear-gradient(35deg,rgb(255, 240, 157),gold);
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 0.3rem;
+    padding: 0.3rem 1rem;
+  }
+  /* .sectionLight,.sectionDark{
+    height: 100vh;
+  } */
+  #modalnone{
+    display: none;
+  }
+  #modalblock{
+    display: block;
+  }
+
+  .modall{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-items: center;
+
+    background-color: rgba(0, 0, 0, 0.16);
+    padding-top: 5rem;
+  }
+  .modelCard{
+    
+    
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 2rem 2rem;
+    border-radius: 0.3rem;
+  }
+  .modelCard div{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0.5rem;
+    font-size: 0.5rem;
+
+  }
+  
+
+  .Img{
+    border-radius: 0.3rem;
+    background-color: rgba(31, 31, 31, 0.123);
+    position: relative;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .Img input{
+    cursor: pointer;
+   width: 100%;
+   height: auto;
+   
+  }
+  .Img svg{
+    position: absolute;
+    cursor: pointer;
+
+  }
+  .formBody .Inputs{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .Inputs input,textarea{
+    border: none;
+    outline: none;
+    background-color: rgba(78, 78, 78, 0.1);
+    color: rgb(70, 70, 70);
+    border-radius: 0.3rem;
+    padding: 0.3rem 1rem;
+    cursor: pointer;
+    font-size: 0.5rem;
+  }
+  
+  .addBtnLight{
+    border: none;
+    background-image:linear-gradient(35deg,rgb(255, 251, 243),orange) ;
+    color: black;
+    font-size: 0.5rem;
+    border-radius: 0.5rem;
+    padding: 0.4rem 1rem;
+
+  }
+  .addBtnDark{
+    border: none;
+    background-image:linear-gradient(35deg,rgb(57, 67, 64),rgb(0, 215, 93)) ;
+    color: rgb(255, 255, 255);
+    font-size: 0.5rem;
+    border-radius: 0.5rem;
+    padding: 0.4rem 1rem;
+
+  }
+  .addBtn svg{
+    font-size: 1rem;
+  }
+
+  nav .nameDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3rem 0;
+    gap: 1rem;
+  }
+  nav .nameDiv svg{
+    font-size: 1.7rem;
+    
+  }
+  .navLight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(255, 241, 216);
+
+    padding: 1rem 2rem;
+
+  }
+  .navDark{
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+    justify-content: space-between;
+
+    background: rgb(0, 18, 61);
+    padding: 1rem 2rem;
+
+  }
+  .logoLight{
+    background-image: linear-gradient(to bottom,orange,rgb(123, 56, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5rem;
+  }
+  .logoDark{
+    background-image: linear-gradient(to bottom,rgb(0, 255, 204),rgb(0, 123, 98));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5rem;
+  }
+  .searchLight{
+    background: rgb(255, 221, 159);
+    border-radius: 1.5rem;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.1rem 1rem;
+    margin-bottom: 1rem;
+
+  }
+  .searchDark{
+    background: rgb(0, 96, 77);
+    border-radius: 1.5rem;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.1rem 1rem;
+    margin-bottom: 1rem;
+
+  }
+  .searchLight input{
+    border: none;
+    outline: none;
+    width: 100%;
+    background: transparent;
+    font-size: 1rem;
+    color: black;
+    cursor: pointer;
+  }
+  .searchDark input{
+    border: none;
+    outline: none;
+    width: 100%;
+    background: transparent;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  .searchLight svg{
+    font-size: 2rem;
+    color: black;
+    cursor: pointer;
+    
+  }
+  .searchDark svg{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  .cartLight{
+    font-size: 2rem;
+    color: black;
+    margin-right: 10rem;
+    cursor: pointer;
+  }
+  .cartDark{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    margin-right: 10rem;
+    cursor: pointer;
+  }
+  .modeLight{
+    font-size: 2rem;
+    color: black;
+    cursor: pointer;
+  }
+
+  .modeDark{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  .cardLight{
+    background-image: linear-gradient(to left,rgb(255, 255, 255),rgb(255, 201, 234));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 1rem;
+    color: black;
+    font-size: 0.5rem;
+   }
+   
+   .cardDark{
+    background-image: linear-gradient(to left,rgb(0, 0, 0),rgb(62, 173, 145));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0rem;
+    color: white;
+    font-size: 0.4rem;
+  
+   }
+   .nameLight{
+    background-image: linear-gradient(to bottom,rgb(40, 11, 15),rgb(255, 1, 162));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition:ease-in;
+    font-size: small;
+   }
+   .nameDark{
+    background-image: linear-gradient(to bottom,rgb(255, 255, 255),rgb(1, 255, 5));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: ease-in;
+    font-size: small;
+  
+  
+   }
+   .cardLight svg, .cardDark svg{
+    font-size: 1rem;
+   }
+}
